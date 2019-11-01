@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Lindel_2019</title>
+
+     <script src="library/p5.js"></script>
+	<script src="library/p5.dom.js"></script>
+	<script src="library/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+	<script src="logo.js"></script>
+        <script src="stuff.js"></script>
+ <link rel="stylesheet" type="text/css" href="style.css">
+	
+  </head>
+  <body>
+    <div id="d1">  
+	<input type="button" id="but1" value="FORWARD" onclick="forward()" title="click to go forward">
+      <input type="button" id="but2" value="BACK" onclick="back()">
+      <input type="button" id="but3" value="RIGHT" onclick="right()">
+      <input type="button" id="but4" value="LEFT" onclick="left()"> 
+    <input type="button" id="but5" value="LINDEL" onclick="lind_R()">
+    <input type="button" id="but6" value="RESTART" onclick="reStart()">
+   
+    </div>
+    
+	<div id="div2">
+      <input type="text" id="inp1"  ondblclick="chgAll()">
+      <p id="par3">Enter string, length and angle (separated by commas) and double click.  then click Lindel button above to see the next level.  You can move design my clicking on canvas with the mouse.  Example  enter:  A-A++AA-A+A,20,60 and dbl_click in dialogue box and then click on canvas.</p>
+	  
+	</div>
+  </body>
+</html>

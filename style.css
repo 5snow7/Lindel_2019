@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;border-style:double;border-color:red;
+  border-width:10px;position:absolute;top:20px;left:20px;
+padding:20px;
+}
+
+#d1{border-color:red;border-style:groove;border-width:10px;position:absolute;left:1000px;top:20px;
+width:160px;height:180px;background-color: green;}
+
+#but1{position:absolute;left:40px;top:10px;}
+#but2{position:absolute;left:60px;top:75px;}
+#but3{position:absolute;left:78px;top:45px;}
+#but4{position:absolute;left:18px;top:45px;}
+#but5{position:absolute;left:57px;top:105px;}
+#but6{position:absolute;left:57px;top:135px;}
+
+#div2{border-color:red;border-style:groove;border-width:10px;position:absolute;left:1000px;top:240px;
+width:180px;height:260px;background-color: green;padding:10px;}
+
+#inp1 {width:150px;}
