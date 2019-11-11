@@ -13,24 +13,30 @@
 	<script src="sketch.js"></script>
 	<script src="logo.js"></script>
         <script src="stuff.js"></script>
+ <script src="automaton.js"></script>
+
  <link rel="stylesheet" type="text/css" href="style.css">
 	
   </head>
   <body>
-    <div id="d1">  
-	<input type="button" id="but1" value="FORWARD" onclick="forward()" title="click to go forward">
-      <input type="button" id="but2" value="BACK" onclick="back()">
-      <input type="button" id="but3" value="RIGHT" onclick="right()">
-      <input type="button" id="but4" value="LEFT" onclick="left()"> 
-    <input type="button" id="but5" value="LINDEL" onclick="lind_R()">
-    <input type="button" id="but6" value="RESTART" onclick="reStart()">
-   
+    <div id="div1">  
+	<input type="button" id="butsier" value="Sier" onclick="sierTri()"> 
+    <input type="button" id="butkoch" value="koch" onclick="koch()"> 
     </div>
-    
 	<div id="div2">
-      <input type="text" id="inp1"  ondblclick="chgAll()">
-      <p id="par3">Enter string, length and angle (separated by commas) and double click.  then click Lindel button above to see the next level.  You can move design my clicking on canvas with the mouse.  Example  enter:  A-A++AA-A+A,20,60 and dbl_click in dialogue box and then click on canvas.</p>
-	  
+	<input type="button" id="butclear" value="CLEAR" onclick="clearScr()"> 
+    <input type="button" id="butgen" value="GENERATE" onclick="gen()">
+    <input type="button" id="butrestart" value="RESTART" onclick="reStart()">
+    <input type="button" id="butinfo" value="INFO" onclick="info()">
+    <input type="button" id="butdirs" value="DIRECTIONS" onclick="dir1()">
+    </div>
+    <div id="div3">
+    <input type="text" id="inpall" value="A+A+A,A+G,G-A" onclick="chgAll()" title="enter axiom and the 2 generators">
+     <input type="text" id="inplen" value="200,60,0.33334" onclick="length()" title="enter length,angle,factor">
+    <p id="par1">length<input type="range" id="range1" min="5" max="50" onclick="chgLen()"></p>
+	 <p id="par2">angle <input type="range" id="range2" min="30" max="160" onclick="chgAng()"></p>  
+	 <input type="text" id="autoStuff" value="24,14,1" ondblclick="startAuto()">
+	 <input type="button" id="auto1" value="AUTOMATON" onclick="runAuto()">
 	</div>
   </body>
 </html>
