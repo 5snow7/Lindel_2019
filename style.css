@@ -1,24 +1,35 @@
 html, body {
   margin: 0;
   padding: 0;
+background-color:blue;
 }
 canvas {
   display: block;border-style:double;border-color:red;
-  border-width:10px;position:absolute;top:20px;left:20px;
-padding:20px;
+  border-width:12px;position:absolute;top:20px;left:20px;
+padding:20px;background-color:yellow;
 }
 
-#d1{border-color:red;border-style:groove;border-width:10px;position:absolute;left:1000px;top:20px;
-width:160px;height:180px;background-color: green;}
+#div1{border-color:red;border-style:groove;border-width:10px;
+position:absolute;left:950px;top:20px;
+width:160px;height:50px;background-color: green;}
+#butsier{position:absolute;left:15px;top:10px;}
+#butkoch{position:absolute;left:80px;top:10px;}
 
-#but1{position:absolute;left:40px;top:10px;}
-#but2{position:absolute;left:60px;top:75px;}
-#but3{position:absolute;left:78px;top:45px;}
-#but4{position:absolute;left:18px;top:45px;}
-#but5{position:absolute;left:57px;top:105px;}
-#but6{position:absolute;left:57px;top:135px;}
+#div2{border-color:red;border-style:groove;border-width:10px;
+position:absolute;left:950px;top:100px;
+width:180px;height:170px;background-color: green;padding:10px;}
+#butdirs{position:absolute;left:15px;top:10px;width:100px;}
+#butclear{position:absolute;left:15px;top:40px;}
+#butrestart{position:absolute;left:15px;top:70px;}
+#butgen{position:absolute;left:15px;top:100px;}
+#butinfo{position:absolute;left:15px;top:130px;}
 
-#div2{border-color:red;border-style:groove;border-width:10px;position:absolute;left:1000px;top:240px;
-width:180px;height:260px;background-color: green;padding:10px;}
-
-#inp1 {width:150px;}
+#div3{border-color:red;border-style:groove;border-width:10px;
+position:absolute;left:950px;top:330px;
+width:180px;height:200px;background-color: green;padding:10px;}
+#inpall {position: absolute;left:15px;top:10px;width:150px;width:160px;}
+#inplen{position:absolute;left:15px;top:40px;width:160px;}
+#par1{position:absolute;left:15px;top:55px;}
+#par2{position:absolute;left:15px;top:85px;}
+#autoStuff{position:absolute;left:15px;top:135px;width:80px;}
+#auto1{	position:absolute;left:15px;top:170px;}
