@@ -18,7 +18,7 @@ factor=0.34
 
 function draw() {
 background(220,100,0);
-text(" length is " +len+ " and 3 times length is "+3*len,20,20);
+text(" length is " +len+ " angle is "+an+ " factor is "+factor,20,20);
 t.set1(xm,ym,0);word(t,len,an,str);
 }
 
