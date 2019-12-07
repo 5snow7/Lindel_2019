@@ -11,12 +11,13 @@ padding:20px;background-color:yellow;
 
 #div1{border-color:red;border-style:groove;border-width:10px;
 position:absolute;left:950px;top:20px;
-width:160px;height:50px;background-color: green;}
+width:160px;height:70px;background-color: green;}
 #butsier{position:absolute;left:15px;top:10px;}
 #butkoch{position:absolute;left:80px;top:10px;}
+#butpp{position:absolute;left:15px;top:40px;}
 
 #div2{border-color:red;border-style:groove;border-width:10px;
-position:absolute;left:950px;top:100px;
+position:absolute;left:950px;top:120px;
 width:180px;height:170px;background-color: green;padding:10px;}
 #butdirs{position:absolute;left:15px;top:10px;width:100px;}
 #butclear{position:absolute;left:15px;top:40px;}
@@ -25,7 +26,7 @@ width:180px;height:170px;background-color: green;padding:10px;}
 #butinfo{position:absolute;left:15px;top:130px;}
 
 #div3{border-color:red;border-style:groove;border-width:10px;
-position:absolute;left:950px;top:330px;
+position:absolute;left:950px;top:350px;
 width:180px;height:200px;background-color: green;padding:10px;}
 #inpall {position: absolute;left:15px;top:10px;width:150px;width:160px;}
 #inplen{position:absolute;left:15px;top:40px;width:160px;}
